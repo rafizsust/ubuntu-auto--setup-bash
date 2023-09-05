@@ -1,0 +1,35 @@
+#!/bin/bash
+yes |sudo apt-get update
+yes |sudo apt-get upgrade
+
+#vs code
+yes |sudo snap install code --classic
+
+#git
+yes |sudo apt install git
+
+#postman
+yes |sudo snap install postman
+
+#nodejs
+yes |sudo apt install nodejs npm
+
+#chrome
+yes |sudo apt install google-chrome-stable
+
+#vlc
+yes |sudo snap install vlc
+
+#4k downloader
+yes |wget https://dl.4kdownload.com/app/4kvideodownloader_4.4.11-1_amd64.deb
+yes |sudo dpkg -i 4kvideodownloader_4.4.11-1_amd64.deb
+
+#qBittorrent
+yes |sudo apt install qbittorrent
+
+#chmod u+x mybash.sh
+#./mybash.sh
+
+
+
+
